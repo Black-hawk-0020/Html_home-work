@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+height: 50vh;
+}
+section,div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.block-1{
+background-color: fuchsia;
+}
+.block-2{
+    background-color: black;
+    color: white;
+}
+h1{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+div{
+    width: 70%;
+}
+p{
+    text-align: center;
+}
