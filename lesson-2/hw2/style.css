@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wraper{
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20vh;
+    background-color: bisque;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: .5s;
+}
+.block:hover{
+    border-radius: 50%;
+    background-color: gray;
+    transition: .5s;
+}
