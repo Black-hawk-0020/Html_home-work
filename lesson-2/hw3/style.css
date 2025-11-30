@@ -19,6 +19,10 @@ body {
     height: 200px;
     padding: 10px;
     background-color: lightgreen;
+    
+}
+.block:hover{
+    transform: scale(1.1);
 }
 ul{
     list-style: none;
