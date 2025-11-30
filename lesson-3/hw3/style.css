@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+height: 100vh;
+}
+section,div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.block-1{
+background-color: fuchsia;
+}
+.block-2{
+    background-color: green;
+    color: white;
+}
+.block-3{
+    background-color: cadetblue;
+    color: white;
+}
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+div{
+    width: 70%;
+}
+p{
+    text-align: center;
+}
+.arrow-down{
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+.arrow-up{
+    transform: rotate(270deg);
+    margin-bottom: 20px;
+}
