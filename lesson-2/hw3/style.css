@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkgreen;
+}
+.wraper{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+    
+}
+.block{
+     width: 230px; 
+    height: 200px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+ul{
+    list-style: none;
+}
+ li:nth-child(1){
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+li {
+    margin: 10px 0;
+}
