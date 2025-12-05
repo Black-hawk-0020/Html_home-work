@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 div:nth-child(1) {
     font-family: "Rubik Pixels", system-ui;

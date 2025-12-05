@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block1,.block3{
+    height: 20vh;
+    background-color: lightgray;
+}
+.block2{
+    height: 60vh;
+    display: flex;  
+}
+.l-sidebar,.r-sidebar{
+    width: 27%;
+    background-color: rgb(92, 91, 91);
+}
+.main{
+    flex-grow: 1;
+background-color: darkgray;
+}
