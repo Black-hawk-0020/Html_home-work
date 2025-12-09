@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .block1{
     height: 5vh;
@@ -27,4 +32,9 @@ background-color: darkgray;
 .main-child2{
     background-color: rgb(170, 166, 166);
     height: 50%;
+}
+.block3{
+    flex-grow: 1;
+    background-color: rgb(122, 117, 117);
+
 }
