@@ -8,6 +8,8 @@
   border: 20px solid rgb(65, 225, 59);
   margin: 50px;
   border-radius: 50%;
+  border-bottom-color:greenyellow ;
+  border-top-color:greenyellow ;
 }
 .wrapper > div {
   width: 100%;
