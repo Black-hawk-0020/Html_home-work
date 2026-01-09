@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.wrapper{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+}
+.maineBlock{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+.blockBottom{
+    width: 100%;
+    height: 17%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+li{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(22, 185, 240);
+    color: white;
+}
+img{
+    width: 20px;
+    margin-right: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+p a{
+    color: blue;
+}
