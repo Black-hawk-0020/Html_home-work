@@ -1,5 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+  display: grid;
+  grid-template-rows: 15% 1fr 15%;
+  grid-template-areas:
+    "header"
+    "main" 
+    "footer";
+}
+header {
+  grid-area: header;
+  background-color: lightgray;
+}
+main {
+  grid-area: main;
+  background-color: darkgray;
+}
+footer {
+  grid-area: footer;
+  background-color: lightgray;
 }
